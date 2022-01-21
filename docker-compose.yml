@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    build:
+      context: .
+    image: somkiat/angular-web:1.0
+    ports:
+      - 8888:80
